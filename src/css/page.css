@@ -1,22 +1,22 @@
 .background
 {
-    -fx-background-color: rgb(125, 230, 160);
-    -fx-border-color:rgb(125, 230, 160);
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-border-color:rgb(255, 255, 255);
     -fx-border-radius:30px;
     -fx-background-radius: 30px;
 }
 #AnchorPane{
-    -fx-background-color: rgb(125, 230, 160);
+    -fx-background-color: rgb(255, 255, 255);
     
 }
 .table 
 {
-    -fx-background-color: rgb(125, 230, 160);
+    -fx-background-color: rgb(255, 255, 255);
     -fx-border-color: #000000;
     -fx-border-width: 0.5px;
 }
 .table .column-header {
-    -fx-background-color: #58fab9;
+    -fx-background-color: #ffffff;
     -fx-text-color: #ffffff;
     -fx-border-color: #8ec496;
     -fx-border-width: 0.5px;
@@ -64,7 +64,7 @@
 
 /* Kiểu khi hover qua button */
 .button:hover {
-    -fx-background-color: #12da19 !important; /* Màu nền khi hover */
+    -fx-background-color: #0ba710 !important; /* Màu nền khi hover */
     -fx-text-fill: white !important;
     -fx-padding: 5 10 !important; /* Khoảng cách padding mặc định */
     -fx-border-color: transparent !important; /* Màu đường viền mặc định */

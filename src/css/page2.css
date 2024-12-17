@@ -1,21 +1,21 @@
 .background
 {
-    -fx-background-color: rgb(203, 231, 205);
-    -fx-border-color:rgb(178, 234, 183);
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-border-color:rgb(255, 255, 255);
     -fx-border-radius:30px;
     -fx-background-radius: 30px;
 }
 #AnchorPane{
-    -fx-background-color: rgb(203, 231, 205);
+    -fx-background-color: rgb(254, 254, 254);
 }
 .table 
 {
-    -fx-background-color: rgb(203, 231, 205);
+    -fx-background-color: rgb(255, 255, 255);
     -fx-border-color: #000000;
     -fx-border-width: 0.5px;
 }
 .table .column-header {
-    -fx-background-color:  rgb(203, 231, 205);
+    -fx-background-color:  rgb(255, 255, 255);
     -fx-text-color: #ffffff;
     -fx-border-color: #cccccc;
     -fx-border-width: 0.5px;
@@ -51,7 +51,7 @@
     -fx-font-size: 15;
 }
 .button {
-    -fx-background-color: #7de8c6 !important; /* Màu nền mặc định */
+    -fx-background-color: #25ad3e !important; /* Màu nền mặc định */
     -fx-text-fill: white !important; /* Màu chữ mặc định */
     -fx-padding: 5 10 !important; /* Khoảng cách padding mặc định */
     -fx-border-color: transparent !important; /* Màu đường viền mặc định */
