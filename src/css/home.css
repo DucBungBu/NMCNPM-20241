@@ -1,0 +1,66 @@
+.menuButton {
+    -fx-background-color: transparent;
+}
+.menuButton:hover {
+    -fx-background-color: #006400;
+}
+.menuButton:pressed {
+    -fx-background-color: #2E8B57;
+}
+
+#settingButton {
+    -fx-background-color: transparent;
+}
+#settingButton:hover {
+    -fx-background-color: #077264;
+}
+#settingButton:showing {
+    -fx-background-color: #055f53;
+}
+.settingItem {
+    -fx-pref-width: 179px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+}
+
+#settingButton .context-menu {
+    -fx-background-color: #0ba776;
+}
+
+#sidebarPane {
+    -fx-background-color: #222222;
+}
+
+.dbButton {
+    -fx-background-color: transparent;
+}
+.dbButton .arrow {
+    -fx-background-color: black;
+}
+.dbButton:hover {
+    -fx-background-color: #1cbc16;
+}
+.dbButton:showing {
+    -fx-background-color: #1cbc16;
+}
+.dbItem {
+    -fx-pref-width: 245px;
+    -fx-pref-height: 60px;
+    -fx-background-color: rgb(161, 224, 145);
+    -fx-cursor: hand;
+}
+.dbItem .label {
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+}
+.context-menu {
+    -fx-background-color: rgb(166, 240, 213);
+}
+.dbItem:hover {
+    -fx-background-color: #12a157;
+}
+.dbItem:focus {
+    -fx-text-fill: black;
+}
