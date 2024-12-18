@@ -6,7 +6,8 @@
     -fx-background-radius: 30px;
 }
 #AnchorPane{
-    -fx-background-color: rgb(254, 254, 254);
+    -fx-background-color: rgb(255, 255, 255);
+    
 }
 .table 
 {
@@ -15,11 +16,10 @@
     -fx-border-width: 0.5px;
 }
 .table .column-header {
-    -fx-background-color:  rgb(255, 255, 255);
+    -fx-background-color: #ffffff;
     -fx-text-color: #ffffff;
     -fx-border-color: #8ec496;
     -fx-border-width: 0.5px;
-    
 }
 .table .table-cell
 {
@@ -50,6 +50,7 @@
     -fx-font-family: "Arial";
     -fx-font-size: 15;
 }
+/* Kiểu mặc định của button */
 .button {
     -fx-background-color: #36883f !important; /* Màu nền mặc định */
     -fx-text-fill: white !important; /* Màu chữ mặc định */
