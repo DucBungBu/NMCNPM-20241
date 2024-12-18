@@ -62,14 +62,17 @@ public class MysqlConnector {
         return pw;
     }
     
-    public void changePwData(String username, String newPw){
-        try {
-            String query = "UPDATE user SET Password = ? WHERE Username = ?";
-            PreparedStatement ps = connection.prepareStatement(query);
+
+    public void changePwData(String username, String newPw) throws SQLException { 
+        try (PreparedStatement ps = connection.prepareStatement("UPDATE user SET Password = ? WHERE Username = ?")) { 
             ps.setString(1, newPw);
             ps.setString(2, username);
-        } catch (SQLException e) {
-            e.printStackTrace();
+            int rowsUpdated = ps.executeUpdate(); 
+            if (rowsUpdated > 0) {
+                System.out.println("Mật khẩu đã được cập nhật thành công.");
+            } else {
+                System.out.println("Không tìm thấy người dùng để cập nhật mật khẩu.");
+            }
         }
     }
     
